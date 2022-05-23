@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/myStyle.css">
+</head>
+<body>
+    <main class="grid">
+        <div id="quiz">
+            <h1> Javascript Quiz</h1>
+            <hr style="margin-bottom: 20px;"/>
+            <p id="question"></p>
+            <div class="buttons">
+                <button id="btn0" onclick="getChoice(0)">
+                    <span id="choice0"></span>
+                </button>
+                <button id="btn1" onclick="getChoice(1)">
+                    <span id="choice1" ></span>
+                </button>
+                <button id="btn2" onclick="getChoice(2)">
+                    <span id="choice2"></span>
+                </button>
+                <button id="btn3" onclick="getChoice(3)">
+                    <span id="choice3"></span>
+                </button>
+            </div>
+            <hr style="margin-top:50px;"/>
+            <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+        </div>
+
+    </main>
+    <script src="./Scripts/index.js"></script>
+</body>
+</html>
